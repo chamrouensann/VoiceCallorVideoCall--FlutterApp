@@ -72,7 +72,7 @@ class Body extends StatelessWidget {
 class RoundedButton extends StatelessWidget {
   const RoundedButton({
     Key key,
-    this.size = 80,
+    this.size = 90,
     @required this.iconSrc,
     @required this.color,
     @required this.iconColor,
@@ -88,7 +88,7 @@ class RoundedButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return SizedBox(
       height: getProportionateScreenHeight(size),
-      width: getProportionateScreenWidth(size),
+      width: getProportionateScreenWidth(size - 15),
       child: FlatButton(
           padding: EdgeInsets.all(15 / 64 * size),
           color: color,
