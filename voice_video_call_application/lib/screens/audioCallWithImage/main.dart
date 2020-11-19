@@ -1,5 +1,6 @@
 import 'package:voicevideocallapplication/screens/audioCallWithImage/components/body.dart';
 import 'package:voicevideocallapplication/screens/dialscreen/dial_screen.dart';
+import 'package:voicevideocallapplication/screens/groupCall/group_call_screen.dart';
 
 import 'audio_call_with_image_screen.dart';
 import 'package:flutter/material.dart';
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: DialScreen(),
+      home: GroupCallScreen(),
     );
   }
 }
