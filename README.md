@@ -12,4 +12,4 @@ Today we will create 3 screens, First, one for the audio call which has a user p
 
 <!-- ![Preview](/gif.gif) -->
 
-![App UI](/ui.png)
+![App UI](/Demo.png)
