@@ -21,7 +21,7 @@ class RoundedButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return SizedBox(
       height: getProportionateScreenHeight(size),
-      width: getProportionateScreenWidth(size - 15),
+      width: getProportionateScreenWidth(size - 10),
       child: FlatButton(
           padding: EdgeInsets.all(15 / 64 * size),
           color: color,
